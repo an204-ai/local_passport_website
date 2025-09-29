@@ -49,14 +49,14 @@ Expected: Đăng nhập thành công, trả về session/cookie.
 
 ### Xem thông tin User
 GET `http://localhost:3000/user`  
-Expected: Trả về thông tin cơ bản của user đã login.  
+Expected: user trong database.  
 ![user](public/results/user.png)
 
 ---
 
 ### Profile
 GET `http://localhost:3000/profile`  
-Expected: Hiển thị thông tin chi tiết user.  
+Expected: Hiển thị trang thông tin user.  
 ![profile](public/results/profile.png)
 
 ---
